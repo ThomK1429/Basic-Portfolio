@@ -1,0 +1,105 @@
+body {
+	margin:0;
+	padding:0;
+   	background-image: url("../images/concrete_seamless.png"); 
+	font-family: "Helvetica Neue",Helvetica, sans-serif;
+}
+
+header{
+	background-color: #fff;
+	height: 76px;
+	font-family: Georgia,"Times New Roman",serif;
+
+	border-style:solid;
+	border-color: #ccc;
+	border-width: 0 0 1px 0;
+
+}
+
+#logo{
+
+	float:left;
+	width:120px;
+	/* height:50px; */
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 28px 28px;	/* pad top/bottom */
+	font-size: 20px;
+	margin-left: 140px;
+	color:white;
+}
+
+#nav_area{
+	float:right;
+
+	padding: 28px 28px;	/* pad top/bottom */
+	/*margin-top: 28px;
+	margin-right:40px; */
+}
+
+/* Change the nav_area links to have no underlines*/
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+
+#container{
+	width: 960px;
+	margin-top: 38px;
+	margin-left:240px;
+
+}
+
+/* About Me */
+#content_area{
+	border-style:solid;
+	border-color: #ddd;
+	border-width: 1px;
+	background-color: #fff;
+	width: 630px;
+	float:left;
+	font-size: 18px;
+	color:#4aaaa5;
+	line-height: 1.5em;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#profile-picture{
+	float:left;
+	width:150px;
+	height:150px;
+	padding-right: 15px;
+}
+
+ /* Connect w/ me Links */
+#side_section{ 
+	width: 270px;
+	float:right;
+	background-color: #fff;
+	/*height:200px;*/
+	text-align: center;
+	color: #4aaaa5;
+	font-size: 20px;
+	padding-top: 10px
+}
+
+#connect_links{
+	border-top: 1px;
+	border-style:solid;
+	border-color: red;
+	padding-top: 30px;
+	padding-bottom: 20px;
+
+
+}
+
+footer{
+	clear: both;
+	position:absolute;
+	bottom:0;
+	width: 100%;
+	padding: 28px 28px;	/* pad top/bottom */
+	background: #666;
+	color: white;
+	text-align: center;
+
+}
