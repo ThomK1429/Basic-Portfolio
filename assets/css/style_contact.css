@@ -5,6 +5,10 @@
 	padding-left: 30px;
 }
 
+#name, #email, #message, #submit{
+	padding-top: 15px;
+}
+
 #nameb{width: 600px}
 
 #emailb{width: 600px}
