@@ -23,9 +23,9 @@ header{
 	/* height:50px; */
 	background-color: #4aaaa5;
 	text-align: center;
-	padding: 28px 28px;	/* pad top/bottom */
+	/*padding: 28px 28px;*/	/* pad top/bottom */
 	font-size: 20px;
-	margin-left: 140px;
+	/* margin-left: 140px; */
 	color:white;
 }
 
@@ -53,6 +53,7 @@ a:visited { text-decoration: none; }
 	border-style:solid;
 	border-color: #ddd;
 	border-width: 1px;
+
 	background-color: #fff;
 	width: 630px;
 	float:left;
@@ -83,11 +84,11 @@ a:visited { text-decoration: none; }
 }
 
 #connect_links{
-	border-top: 1px;
+	/*border-top: 5px;
 	border-style:solid;
-	border-color: red;
+	border-color: cc;*/
 	padding-top: 30px;
-	padding-bottom: 20px;
+	/* padding-bottom: 20px; */
 
 
 }
@@ -97,7 +98,7 @@ footer{
 	position:absolute;
 	bottom:0;
 	width: 100%;
-	padding: 28px 28px;	/* pad top/bottom */
+/*	padding: 28px 28px; */	/* pad top/bottom */ 
 	background: #666;
 	color: white;
 	text-align: center;
